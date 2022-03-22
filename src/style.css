@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    height: 100vh;
+    overflow-y: auto;
+    background-color: aqua;
+}
+
+/*The  Form section */
+.form-section {
+    height: 80vh;
+    width: 500px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+ul {
+    list-style: none;
+}
+
+/* Form-section */
+.form-control {
+    margin: 3rem auto 0;
+    width: 80%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    border-radius: 2px;
+    box-shadow: 2px 2px darkgray;
+}
+
+.header-wrap {
+    border-bottom: 1px solid #ddd;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.heading {
+    padding: 1rem;
+    color: red;
+}
+
+/*The  Form input section */
+.form-input {
+    padding: 1rem 1rem 0.5rem;
+    display: flex;
+    column-gap: 1rem;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #ddd;
+}
+
+.add {
+    border: none;
+    background-color: inherit;
+    outline: none;
+    font-size: 20px;
+    cursor: pointer;
+    color: #888;
+}
+
+.syc {
+    padding: 1rem;
+    color: #888;
+}
+
+.syc:hover {
+    color: green;
+    cursor: pointer;
+}
+
+.add:hover {
+    color: purple;
+}
+
+/* checkbox section */
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.div1 {
+    padding: 1rem 1rem 0.5rem;
+    display: flex;
+    column-gap: 1rem;
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+}
+
+.dot {
+    cursor: move;
+    color: #888;
+}
+
+.check {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    background-color: blue;
+}
+
+.label {
+    width: 100%;
+}
+
+.italics {
+    border: none;
+    background-color: inherit;
+}
+
+.italics:focus {
+    outline: none;
+    border: none;
+    background-color: inherit;
+}
+
+.italics:placeholder-shown {
+    font-style: italic;
+    font-size: 20px;
+}
+
+/* clear section */
+.clear {
+    padding: 1rem;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+    background-color: #f4f4f4;
+}
+
+.clear a {
+    color: #666;
+    text-decoration: none;
+}
+
+.clear a:hover {
+    text-decoration: underline;
+}

@@ -4,9 +4,9 @@
 
 > Todo List App.
 
-![screenshot]()
+![screenshot Image](./img/Screenshot-pic.jpeg)
 
-This project is a responsive Todo list app which allows you to add and remove  task. The design was gotten from minimalist.
+This project is a responsive Todo list app which allows you to add and remove task. The design was gotten from minimalist.
 
 ## Built With
 
@@ -23,6 +23,7 @@ To get a local copy up and running follow these simple example steps.
 
 - You can clone this repo by typing `git clone https://github.com/EzekielUtshudi/To-Do-List.git` on your terminal
 - Type `cd To-Do-list` to access the project
+
 ### Prerequisites
 
 ```
@@ -63,7 +64,6 @@ set up on github pages
 - Twitter: [@UtshudiEzekiel](https://twitter.com/UtshudiEzekiel)
 - LinkedIn: [@UtshudiEzekiel](https://www.linkedin.com/in/ezekiel-utshudi-195782162/)
 
-
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
@@ -73,8 +73,6 @@ Feel free to leave a comment [issues page]().
 ## Show your support
 
 Give a ⭐️ if you like this project!
-
-
 
 ## 📝 License
 
