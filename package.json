@@ -22,9 +22,9 @@
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/ezekielutshudi/Set-up-project-with-webpack/issues"
+    "url": "https://github.com/EzekielUtshudi/To-Do-List/issues"
   },
-  "homepage": "https://github.com/ezekielutshudi/Set-up-project-with-webpack#readme",
+  "homepage": "https://github.com/EzekielUtshudi/To-Do-List#readme",
   "devDependencies": {
     "@babel/plugin-transform-modules-commonjs": "^7.16.8",
     "babel-eslint": "^10.1.0",
