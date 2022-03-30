@@ -3,48 +3,31 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="To-do App" />
-    <meta name="title" property="og:title" content="To-do App" />
-    <meta property="og:type" content="Website" />
-    <meta
-      name="image"
-      property="og:image"
-      content="https://live.staticflickr.com/65535/51565002297_5748ffbdff_b.jpg"
-    />
-    <meta name="author" content="Juliana Ifionu" />
-
-    <title>To-Do-List</title>
     <link
-      rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
-      integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
-      crossorigin="anonymous"
-    />
-    <link rel="stylesheet" href="style.css">
-  <script defer src="../dist/main.js"></script></head>
+    rel="stylesheet"
+    href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+    integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
+    crossorigin="anonymous"
+  />
+  <link rel="stylesheet" href="style.css">
+    <title>Todo List</title>
+  </head>
   <body>
-    <section class="form-section">
-      <form id="form" class="form-control">
-        <div class="header-wrap">
-          <h3 class="heading">Today's To-Do  </h3>
-          <span class="syc"><i class="fas fa-sync"></i></span>
-        </div>
-        <div class="form-input">
-          <input
-            type="text"
-            name="text"
-            id="text"
-            placeholder="Add to your list..."
-            class="italics"
-          />
-          <button type="submit" class="add">+</button>
-        </div>
-
-        <ul class="container"></ul>
-        <div class="clear">
-          <a href="#">Clear all completed </a>
-        </div>
-      </form>
-    </section>
+    <div class="wrapper">
+        <span class="syc"><i class="fas fa-sync"></i></span>
+      <h1 class="title">Today's todo list</h1>
+      <input
+      type="text"
+      name="text"
+      id="text"
+      placeholder="Add to your list..."
+      class="italics"
+    />
+    <button type="submit" class="add-task">
+     <span class="add-icon"> + </span>
+    </button>
+      <ul class="todo"></ul>
+      <button class="btn" type="button">Clear all completed</button>
+    </div>
   </body>
 </html>
