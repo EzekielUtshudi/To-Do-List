@@ -5,6 +5,28 @@
 }
 
 body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  height: 100vh;
+  overflow-y: auto;
+  background-color: aqua;
+}
+
+/* The  Form section */
+.form-section {
+  height: 80vh;
+  width: 500px;
+  margin: 0 auto;
+}
+
+ul {
+  list-style: none;
+}
+
+/* Form-section */
+.form-control {
+  margin: 3rem auto 0;
+  width: 80%;
+  height: auto;
   display: flex;
   justify-content: center;
   align-items: center;
